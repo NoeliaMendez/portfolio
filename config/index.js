@@ -1,20 +1,20 @@
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
 
-  siteTitle: 'Jodie', // Navigation and Site Title
-  siteTitleAlt: 'Jodie - Gatsby Starter Portfolio', // Alternative Site title for SEO
-  siteTitleShort: 'Jodie', // short_name for manifest
-  siteHeadline: 'Come & Enjoy our excellent photos', // Headline for schema.org JSONLD
-  siteUrl: 'https://jodie.lekoarts.de', // Domain of your site. No trailing slash!
-  siteLanguage: 'en', // Language Tag on <html> element
+  siteTitle: 'Noelia Méndez', // Navigation and Site Title
+  siteTitleAlt: 'Noelia Méndez - Portfolio', // Alternative Site title for SEO
+  siteTitleShort: 'Noelia Méndez', // short_name for manifest
+  siteHeadline: 'Noelia Méndez - Arquitecta', // Headline for schema.org JSONLD
+  siteUrl: 'http://noeliammendez', // Domain of your site. No trailing slash!
+  siteLanguage: 'es', // Language Tag on <html> element
   siteLogo: '/logos/logo.png', // Used for SEO and manifest
-  siteDescription: 'Image-heavy photography portfolio with colorful accents & great typography',
-  author: 'LekoArts', // Author for schema.org JSONLD
+  siteDescription: 'Portfolio de la arquitecta Noelia Méndez',
+  author: 'Noelia Méndez', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
-  userTwitter: '@jodie', // Twitter Username
-  ogSiteName: 'jodie', // Facebook Site Name
-  ogLanguage: 'en_US', // og:language
+  userTwitter: '@Noeliamendez', // Twitter Username
+  ogSiteName: 'Noelia Méndez', // Facebook Site Name
+  ogLanguage: 'es_ES', // og:language
   googleAnalyticsID: 'UA-XXXXXX-X',
 
   // Manifest and Progress color

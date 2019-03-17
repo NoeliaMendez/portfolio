@@ -32,21 +32,19 @@ type PageProps = {
 const Area = styled(animated.div)`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 35vw 40vw 25vw;
+  grid-template-rows: 35vw 40vw;
   grid-template-areas:
     'first-project about-us about-us'
-    'three-projects three-projects three-projects'
-    'instagram instagram instagram';
+    'three-projects three-projects three-projects';
 
   @media (max-width: ${props => props.theme.breakpoints[3]}) {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 35vw 30vw 30vw 25vw;
+    grid-template-rows: 35vw 30vw 30vw;
 
     grid-template-areas:
       'first-project first-project about-us about-us'
       'three-projects three-projects three-projects three-projects'
-      'three-projects three-projects three-projects three-projects'
-      'instagram instagram instagram instagram';
+      'three-projects three-projects three-projects three-projects';
   }
 
   @media (max-width: ${props => props.theme.breakpoints[1]}) {
@@ -57,8 +55,7 @@ const Area = styled(animated.div)`
       'first-project about-us'
       'three-projects three-projects'
       'three-projects three-projects'
-      'three-projects three-projects'
-      'instagram instagram';
+      'three-projects three-projects';
   }
 
   @media (max-width: ${props => props.theme.breakpoints[0]}) {
@@ -70,8 +67,7 @@ const Area = styled(animated.div)`
       'about-us'
       'three-projects'
       'three-projects'
-      'three-projects'
-      'instagram';
+      'three-projects';
   }
 `
 
@@ -115,7 +111,7 @@ const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, three
         </FirstProject>
         <AboutUs to="/about">
           <Img fluid={aboutUs.childImageSharp.fluid} />
-          <span>About</span>
+          <span>Sobre Mí</span>
         </AboutUs>
         <ThreeProjects>
           {threeProjects.edges.map(({ node: project }) => (
@@ -125,10 +121,10 @@ const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, three
             </GridItem>
           ))}
         </ThreeProjects>
-        <Instagram to="/instagram">
+        {/* <Instagram to="/instagram">
           <Img fluid={instagram.childImageSharp.fluid} />
           <span>Instagram</span>
-        </Instagram>
+        </Instagram> */}
       </Area>
     </Layout>
   )

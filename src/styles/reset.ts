@@ -81,8 +81,6 @@ const reset = css`
   }
   abbr[title] {
     border-bottom: none;
-    text-decoration: underline;
-    text-decoration: underline dotted;
   }
   b,
   strong {

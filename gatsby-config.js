@@ -51,8 +51,9 @@ module.exports = {
     {
       resolve: 'gatsby-source-instagram',
       options: {
-        access_token: process.env.ACCESS_TOKEN,
-        instagram_id: process.env.BUSINESS_ID,
+        username: "noeliammendezarq",
+        // access_token: "11694462558.3f4b34c.54e45574e7df46a9ba6ef6b4c8b97895",
+        // instagram_id: "11694462558",
       }
     },
     {

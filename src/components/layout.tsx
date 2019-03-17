@@ -2,6 +2,7 @@ import React from 'react'
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components'
 import { graphql, Link, useStaticQuery } from 'gatsby'
 import { readableColor } from 'polished'
+import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import 'typeface-work-sans'
 import { Box, Flex } from '../elements'
 import theme from '../../config/theme'
@@ -15,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
   }
   ::selection {
     color: white;
-    background-color: #f6993f;
+
   }
   html {
     box-sizing: border-box;
@@ -80,7 +81,7 @@ const GlobalStyles = createGlobalStyle`
   a {
     transition: all 0.3s ease-in-out;
     color: black;
-    text-decoration: underline;
+    text-decoration:none;
     &:hover,
     &:focus {
       color: ${theme.colors.primary};
@@ -112,7 +113,7 @@ const Wrapper = styled.div`
   }
 `
 
-const SideBarInner = styled(Box)<{ bg: string }>`
+const SideBarInner = styled(Box) <{ bg: string }>`
   position: fixed;
   height: 100%;
   width: ${props => props.theme.sidebarWidth.big};
@@ -137,7 +138,7 @@ const SideBarInner = styled(Box)<{ bg: string }>`
   }
 `
 
-const Nav = styled(Flex)<{ color: string }>`
+const Nav = styled(Flex) <{ color: string }>`
   a {
     text-decoration: none;
     color: ${props => readableColor(`${props.color}`)};
@@ -218,7 +219,7 @@ interface QueryResult {
 
 const Layout = ({ children, color }: LayoutProps) => {
   const data: QueryResult = useStaticQuery(query)
-
+  const iconsFloat = {float:"right"};
   return (
     <ThemeProvider theme={theme}>
       <>
@@ -231,10 +232,19 @@ const Layout = ({ children, color }: LayoutProps) => {
               alignItems={['center', 'center', 'center', 'flex-start']}
               justifyContent="space-between"
             >
-              <Box width={['3rem', '4rem', '5rem', '6rem']}>
-                <Link to="/" aria-label="LekoArts, Back to Home">
+            <Box width={['3rem', '4rem', '5rem', '6rem']}>
+              <Nav
+                color={color}
+                mt={[0, 0, 0, 10]}
+                as="nav"
+                flexWrap="nowrap"
+                flexDirection={['row', 'row', 'row', 'column']}
+                alignItems="flex-start"
+              >
+                <Link to="/" aria-label="Back to Home">
                   <Logo />
                 </Link>
+              </Nav>
               </Box>
               <Nav
                 color={color}
@@ -255,8 +265,7 @@ const Layout = ({ children, color }: LayoutProps) => {
           <Main>{children}</Main>
           <Footer color={color}>
             <Box p={[6, 6, 8]} fontSize={0}>
-              Starter by <a href="https://www.lekoarts.de/en">LekoArts</a>.<br />
-              <a href="https://github.com/LekoArts/gatsby-starter-portfolio-jodie">Source</a>.
+              Arquitecta. <span style={iconsFloat}><a href="https://es.linkedin.com/in/noelia-m%C3%A9ndez-mendoza-670063b8"><FaLinkedin /></a> <a href="mailto:noeliamendezmendoza@gmail.com"><FaEnvelope /></a></span>
             </Box>
           </Footer>
         </Wrapper>

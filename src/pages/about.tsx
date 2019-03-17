@@ -1,24 +1,37 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import { AnimatedBox } from '../elements'
 import SEO from '../components/SEO'
 import { config, useSpring } from 'react-spring'
+import { ChildImageSharp } from '../types'
 
-const About = () => {
+type PageProps = {
+  data: {
+    aboutus: ChildImageSharp
+  }
+}
+
+const About: React.FunctionComponent<PageProps> = ({data:{aboutus}}) => {
   const pageAnimation = useSpring({
     config: config.slow,
     from: { opacity: 0 },
     to: { opacity: 1 },
   })
 
+  const imagesAnimation = useSpring({ config: config.slow, delay: 800, from: { opacity: 0 }, to: { opacity: 1 } })
+
   return (
     <Layout>
-      <SEO title="About | Jodie" desc="Hi. I'm LekoArts! You can visit my website or my other Gatsby projects." />
+      <SEO title="About | Noelia Mendez Arquitecta" desc="Apasionada de la arquitectura y el diseño de interiores. En el diseño encuentro la oportunidad de mejorar, refrescar e innovar espacios. Amante de la naturaleza, siento inquietud por la arquitectura sostenible teniendo muy en cuenta el medio ambiente en el desarrollo de mis proyectos." />
       <AnimatedBox style={pageAnimation} py={[6, 6, 6, 8]} px={[6, 6, 8, 6, 8, 13]}>
-        <h1>Hi. I'm LekoArts!</h1>
+        <Img
+          key={aboutus.childImageSharp.fluid.src}
+          fluid={aboutus.childImageSharp.fluid}
+        />
         <p>
-          You can visit my <a href="https://www.lekoarts.de/en">website</a> or my other{' '}
-          <a href="https://gatsby-starter-portfolio.netlify.com">Gatsby projects</a>.
+        Apasionada de la arquitectura y el diseño de interiores. En el diseño encuentro la oportunidad de mejorar, refrescar e innovar espacios. Amante de la naturaleza, siento inquietud por la arquitectura sostenible teniendo muy en cuenta el medio ambiente en el desarrollo de mis proyectos.
         </p>
       </AnimatedBox>
     </Layout>
@@ -26,3 +39,15 @@ const About = () => {
 }
 
 export default About
+
+export const query = graphql`
+query AboutUsQuery {
+  aboutus: file(sourceInstanceName: { eq: "images" }, name: { eq: "about-us" }) {
+    childImageSharp {
+      fluid(quality: 95, maxWidth: 1200) {
+        ...GatsbyImageSharpFluid_withWebp
+      }
+    }
+  }
+}
+`
