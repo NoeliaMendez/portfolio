@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "deploy": "npm run build && mv public docs && git add . && git commit -m 'New Release' && git push origin master",
+    "deploy": "npm run build && cp -R public docs && git add . && git commit -m 'New Release' && git push origin master",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "dev": "gatsby develop -o",

@@ -5,7 +5,13 @@
   color: "black"
   images: "15_porcelanosa"
   cover: "./15_porcelanosa/001.jpg"
-  desc: "Color (American English), or colour (Commonwealth English), is the characteristic of human visual perception described through color categories, with names such as red, orange, yellow, green, blue, or purple. This perception of color derives from the stimulation of cone cells in the human eye by electromagnetic radiation in the visible spectrum. Color categories and physical specifications of color are associated with objects through the wavelength of the light that is reflected from them. This reflection is governed by the object's physical properties such as light absorption, emission spectra, etc."
+  desc: "Proyecto básico y de ejecución de reforma de edificio  INDUSTRIAL PARA USO DE OFICINA CON SERVICIO de venta y almacén industrial en C Alcalá 424, Madriz
+</br></br> Superficies construida:10.607,36 m2 </br></br>
+Proyecto de acondicionamiento de la actual nave industrial para la implantación de las nuevas oficinas de Porcelanosa con 57 puestos de trabajo nuevos. El cliente además de la implantación de la nueva oficina requiere la ampliación de la zona de exposición y tienda pasando de una superficie de 500 m2 a 2000 m2. Se plantea una configuración diseñada para adaptarse y optimizar el espacio que actualmente esta en desuso dentro de las naves. Además en las oficinas se plantean unos nuevos lucernarios que iluminan de forma natural  ayudando a ampliar el espacio.
+(En ejecución)
+</br></br>
+Desarrollo  Modelo Bim. Lod 300
+"
 - title: "Ambientes"
   title_detail: "Porcelanosa - Diseño de ambientes y exposición"
   slug: "porcelanosa-disenio-ambientes"
@@ -13,7 +19,7 @@
   color: "#90BDDF"
   images: "14_ambientes"
   cover: "./14_ambientes/001.jpg"
-  desc: "Neon gives a distinct reddish-orange glow when used in low-voltage neon glow lamps, high-voltage discharge tubes and neon advertising signs. The red emission line from neon also causes the well known red light of helium–neon lasers. Neon is used in some plasma tube and refrigerant applications but has few other commercial uses. It is commercially extracted by the fractional distillation of liquid air. Since air is the only source, it is considerably more expensive than helium."
+  desc: ""
 - title: "Viviendas"
   title_detail: "Proyecto 44 viviendas"
   slug: "proyecto-44-viviendas"
@@ -21,7 +27,7 @@
   color: "#f4d942"
   images: "13_viviendas"
   cover: "./13_viviendas/001.png"
-  desc: "Monochrome photography is photography where each position on an image can record and show a different amount of light, but not a different hue. It includes all forms of black-and-white photography, which produce images containing tones of neutral grey ranging from black to white."
+  desc: "Proyecto Básico de 44 viviendas, garaje y piscina, Arganda del Rey, Madrid"
 - title: "Locales"
   title_detail: "Proyecto 21 locales comerciales"
   slug: "proyecto-21-locales"
@@ -29,7 +35,9 @@
   color: "#82726b"
   images: "12_locales"
   cover: "./12_locales/001.jpg"
-  desc: "The first meal of the day."
+  desc: "Proyecto Básico y de ejecución 21 locales locales comerciales sin acondicionamiento interior, Rivas Vaciamadrid, Madrid.
+</br></br>
+Superficies construida:2447,76m2"
 - title: "Fachada"
   title_detail: "Porcelanosa - Proyecto nueva fachada"
   slug: "fachada-porcelanosa"
@@ -37,7 +45,9 @@
   color: "#82726b"
   images: "11_fachada"
   cover: "./11_fachada/001.jpg"
-  desc: "The first meal of the day."
+  desc: "Proyecto Básico y de ejecución para la nueva imagen de la fachada de la exposición de la tienda de Porcelanosa en Madrid.
+</br></br>
+Se intenta buscar una nueva imagen para una de las exposiciones más importantes con las que cuenta la marca Porcelanosa. Se dan varias opciones al cliente siempre utilizando nuevos materiales como es en nuestro caso el Krión."
 - title: "Portal"
   title_detail: "Diseño portal vivienda"
   slug: "disenio-portal-vivienda"
@@ -45,7 +55,9 @@
   color: "#82726b"
   images: "10_portal"
   cover: "./10_portal/001.jpg"
-  desc: "The first meal of the day."
+  desc: "Diferentes opciones de diseño para el portal del proyecto de 69 viviendas en Rivas Vaciamadrid.
+</br></br>
+Se le ofrece al clientes diversas opciones en el diseño del portal, ejecutándose una de ellas."
 - title: "Concurso Urbanización"
   title_detail: "Concurso urbabnización y viviendas"
   slug: "concurso-urbanizacion"
@@ -53,7 +65,13 @@
   color: "#82726b"
   images: "9_concurso_boadilla"
   cover: "./9_concurso_boadilla/001.jpg"
-  desc: "The first meal of the day."
+  desc: "Nuestra propuesta, es una respuesta a los requerimientos actuales de diseño, funcionalidad, flexibilidad y eficiencia.
+</br></br>
+Adaptándose a una topografía muy pronunciada mediante banqueos, que nos permite la visualización y soleamiento de las viviendas como el concepto de privacidad.
+</br></br>
+El diseño se basa en una  urbanización en la cual, las comunicaciones de coches y peatones, diferenciadas para conseguir un concepto de tranquilidad y menor impacto acústico.
+Medio ambientalmente se ha buscado la de las zonas verdes de y sean objeto de un proyecto paralelo y pueda ser parte del conjunto del complejo
+Superficies construida:49.580,00m2"
 - title: "Nave Industrial"
   title_detail: "Proyecto Nave Industrial Cariñena"
   slug: "nave-industrial"
@@ -61,7 +79,9 @@
   color: "#82726b"
   images: "8_nave_2"
   cover: "./8_nave_2/001.jpg"
-  desc: "The first meal of the day."
+  desc: "Proyecto básico de nave industrial y oficinas, Vicálvaro
+</br></br>
+Superficie construida :2127 m2"
 - title: "Nave Industrial"
   title_detail: "Proyecto Nave Industrial Vicálvaro"
   slug: "nave-industrial-vicalvaro"
@@ -69,7 +89,12 @@
   color: "#82726b"
   images: "7_nave_1"
   cover: "./7_nave_1/001.jpg"
-  desc: "The first meal of the day."
+  desc: "Proyecto básico y de ejecución  nave industrial y oficinas, Zaragoza
+</br></br>
+Superficie construida :15.533,25 m2 
+</br></br>
+Desarrollo de proyecto de nave industrial en el polígono de entreviñas.
+</br>Desarrollo de modelo Bim."
 - title: "Diseño Interiores"
   title_detail: "Diseño Interiores Vivienda"
   slug: "disenio-interiores-vivienda"
@@ -77,7 +102,7 @@
   color: "#82726b"
   images: "6_interiores"
   cover: "./6_interiores/001.jpg"
-  desc: "The first meal of the day."
+  desc: "Desarrollo de espacios y diferencies opciones de decoración para cliente."
 - title: "Concurso Enlaces Peatonales"
   title_detail: "Concurso Enlaces Peatonales en Las Murallas de Cartagena de Indias"
   slug: "concurso-enlaces-peatonales"
@@ -85,7 +110,7 @@
   color: "#82726b"
   images: "5_conc_murallas"
   cover: "./5_conc_murallas/001.jpg"
-  desc: "The first meal of the day."
+  desc: "Desarrollo de estructuras auxiliares que faciliten la visita y el recorrido del conjunto, completando en ocasiones fragmentos desaparecidos. Los elementos de recorrido y estancia acoplados sobre o junto a las estructuras muraruas existentes se desarrollan en carpintería de armar, a base de madera natural resistente a la intemperie,madera laminada o madera tecnológica. Su voluntad es la de presentar un carácter “mobiliario” que las diferencie con nitidez de los elementos conservados."
 - title: "Detalles"
   title_detail: "Detalles Constructivos"
   slug: "detalles-constructivos"
@@ -93,7 +118,7 @@
   color: "#82726b"
   images: "4_detalles"
   cover: "./4_detalles/001.jpg"
-  desc: "The first meal of the day."
+  desc: ""
 - title: "Análisis"
   title_detail: "Proyecto de estrategia de reducción de demanda"
   slug: "proyecto-estrategia-reduccion-demanda"
@@ -101,7 +126,7 @@
   color: "#82726b"
   images: "3_estr_reduc"
   cover: "./3_estr_reduc/001.png"
-  desc: "The first meal of the day."
+  desc: ""
 - title: "Implantación"
   title_detail: "Implantación de Edificio en el Campus"
   slug: "implantacion-edificio-campus"
@@ -109,7 +134,7 @@
   color: "#82726b"
   images: "2_imp_campus"
   cover: "./2_imp_campus/001.jpg"
-  desc: "The first meal of the day."
+  desc: ""
 - title: "PFC"
   title_detail: "Proyecto Final de Carrera - Al final del Arenas Negras (Garachico)"
   slug: "proyecto-final-carrera"
@@ -117,4 +142,7 @@
   color: "#82726b"
   images: "1_pfc"
   cover: "./1_pfc/001.png"
-  desc: "The first meal of the day."
+  desc: "El sendero discurre por un viejo Camino de Herradura siguiendo el trayecto de las coladas lávicas, que en mayo de 1706 bajaron desde el cráter del Volcán Arenas Negra, e impulsadas por la pendiente arrasaron las aldeas que encontraron a su paso llegando al puerto, reduciendo su bahía y afectando a parte de su núcleo urbano. El camino tiene su partida en San Juan del Reparo y discurre por la calle El Monte.
+</br></br>Una vía estrecha que desciende hasta una primera desviación, que debe seguirse hacia la izquierda, y una segun- da, hacia la derecha. El asfaltado de la calle empieza a desdibujarse en este tramo y aparece un empedrado que tiene su origen en un antiguo camino de herradura que baja en zig-zag y desde el que es posible obtener unas maravillosas vistas de la Villa y Puerto de Garachico. Este paraje natural se caracteriza por la combinación de las coladas originadas en la erupción del volcán. También marca el paisaje una variada vegetación en la que domina el pinar como única especie arbórea, mezclado con algunas rupícolas como los bejeques, cerrajas, tomi- llos y algunos cardoncillos, sin olvidar la constante presencia de helechos y líquenes.
+</br></br>El sendero va desapareciendo para llegar a las afueras del pueblo, donde aparecen las primeras casas. Se accede desde aquí a una calle que desciende entre construcciones de arquitectura tradicional y algunas edificaciones modernas hasta la iglesia de Santa Ana, la glorieta de San Francisco, el Ayuntamiento y la Casa de piedra, todo ello situado alrededor de la plaza de La Libertad.
+</br></br>La calle de la izquierda conduce a donde se encuentra EL FINAL DEL ARENAS NEGRAS."

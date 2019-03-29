@@ -232,7 +232,6 @@ const Layout = ({ children, color }: LayoutProps) => {
               alignItems={['center', 'center', 'center', 'flex-start']}
               justifyContent="space-between"
             >
-            <Box width={['3rem', '4rem', '5rem', '6rem']}>
               <Nav
                 color={color}
                 mt={[0, 0, 0, 10]}
@@ -244,16 +243,6 @@ const Layout = ({ children, color }: LayoutProps) => {
                 <Link to="/" aria-label="Back to Home">
                   <Logo />
                 </Link>
-              </Nav>
-              </Box>
-              <Nav
-                color={color}
-                mt={[0, 0, 0, 10]}
-                as="nav"
-                flexWrap="nowrap"
-                flexDirection={['row', 'row', 'row', 'column']}
-                alignItems="flex-start"
-              >
                 {data.navigation.edges.map(({ node: item }) => (
                   <PartialNavLink to={item.link} key={item.name}>
                     {item.name}

@@ -6,6 +6,8 @@ import { AnimatedBox } from '../elements'
 import SEO from '../components/SEO'
 import { config, useSpring } from 'react-spring'
 import { ChildImageSharp } from '../types'
+import { FaLinkedin, FaDownload } from 'react-icons/fa';
+
 
 type PageProps = {
   data: {
@@ -33,6 +35,10 @@ const About: React.FunctionComponent<PageProps> = ({data:{aboutus}}) => {
         <p>
         Apasionada de la arquitectura y el diseño de interiores. En el diseño encuentro la oportunidad de mejorar, refrescar e innovar espacios. Amante de la naturaleza, siento inquietud por la arquitectura sostenible teniendo muy en cuenta el medio ambiente en el desarrollo de mis proyectos.
         </p>
+        <p></p>
+        
+        <a href="logos/cv_noelia_mendez.pdf"><FaDownload /> Mira mi cv</a>
+
       </AnimatedBox>
     </Layout>
   )
